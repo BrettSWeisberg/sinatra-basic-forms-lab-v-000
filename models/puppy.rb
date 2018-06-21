@@ -1,9 +1,9 @@
 class Puppy
 
-  def intialize(params)
-    @name = params[:name]
-    @breed = params[:breed]
-    @age = params[:age]
+  def intialize(name,breed,age)
+    @name = name
+    @breed = breed
+    @age = age
   end
-  
+
 end
